@@ -14,6 +14,12 @@ namespace WebZero.Controllers
             return View();
         }
 
+        // GET: Login
+        public ActionResult Login()
+        {
+            return View();
+        }
+
         // GET: Index/Details/5
         public ActionResult Details(int id)
         {
